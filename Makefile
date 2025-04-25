@@ -1,7 +1,7 @@
 -include .github/local/Makefile.local
-PROJECT ?= linux-apritzel
+PROJECT ?= linux-sunxi
 
-KERNEL_FORK ?= apritzel
+KERNEL_FORK ?= sunxi
 ARCH ?= arm64
 CROSS_COMPILE ?= aarch64-linux-gnu-
 DPKG_FLAGS ?= -d

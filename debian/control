@@ -1,4 +1,4 @@
-Source: linux-apritzel
+Source: linux-sunxi
 Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
 Section: admin
 Priority: standard
@@ -27,7 +27,7 @@ Section: kernel
 Priority: optional
 Provides: linux-image
 Depends: radxa-overlays-dkms,
-         linux-image-${binary:Version}-apritzel,
+         linux-image-${binary:Version}-sunxi,
          ${misc:Depends},
 Description: Radxa Linux meta-package for Radxa Cubie A5E
  This is the meta-package for Linux kernel.
@@ -37,7 +37,7 @@ Architecture: all
 Section: kernel
 Priority: optional
 Provides: linux-headers
-Depends: linux-headers-${binary:Version}-apritzel,
+Depends: linux-headers-${binary:Version}-sunxi,
          ${misc:Depends},
 Description: Radxa Linux headers meta-package for Radxa Cubie A5E
  This is the meta-package for Linux headers.
@@ -47,7 +47,7 @@ Architecture: all
 Section: kernel
 Priority: optional
 Provides: linux-libc-dev
-Depends: linux-libc-dev-${binary:Version}-apritzel,
+Depends: linux-libc-dev-${binary:Version}-sunxi,
          ${misc:Depends},
 Description: Radxa Linux libc-dev meta-package for Radxa Cubie A5E
  This is the meta-package for Linux libc-dev.

@@ -1,4 +1,4 @@
 [submodule "src"]
 	path = src
-	url = https://github.com/apritzel/linux.git
-	branch = a523-v3
+	url = https://kernel.googlesource.com/pub/scm/linux/kernel/git/sunxi/linux.git
+	branch = sunxi/for-next
